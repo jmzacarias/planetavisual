@@ -1,0 +1,40 @@
+$margen: 10%;
+
+/*Estilo Tabla Itinerario*/
+.estiloTabla {
+    background-image:url("../imagenes/DSC_0187.JPG");
+    background-size: cover;
+    font-size: smaller;
+    color: bisque;
+}
+
+.estiloParrafo { 
+    margin-left: $margen;
+    color: rgb(41, 23, 2);
+}
+
+table tr th { /*estilo celdas encabezado*/
+    padding: 15px;
+    border: solid 1px;
+}
+table tr td { /*estilo celdas cuerpo*/
+    padding: 15px;
+    border: hidden 1px;
+}
+.letraOscura {
+    color:beige
+}
+
+#encabezadoTabla {
+    background-color: #352D39;
+    font-weight: bolder;
+    font-size: large;
+    color: #D5C7BC;
+    text-transform: uppercase;
+}
+iframe {
+    margin-left: $margen/2;
+    margin-right: $margen/2;
+    width: 95%;
+    margin-bottom: 30px;
+}

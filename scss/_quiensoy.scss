@@ -1,0 +1,16 @@
+/*Quien Soy*/
+    /*Foto*/
+.imgQuienSoy {
+    width: 400px;
+    margin-top: 20px;
+}   
+
+.textoQuienSoy {
+    width: 40%;
+    margin-top: 10px;
+   }
+.imgTextoQuienSoy {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
