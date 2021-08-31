@@ -63,7 +63,7 @@ footer {
   font-size: small; }
 
 /*font family*/
-html {
+* {
   font-family: 'Julius Sans One', sans-serif;
   font-style: normal; }
 
