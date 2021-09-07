@@ -6,7 +6,10 @@ $ancho: 100%;
     padding-top: 5px;
     display: flex;
     flex-direction: column;
-    width: $ancho/2;
+   /* width: $ancho/2;*/
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 section div div img {
@@ -14,8 +17,9 @@ section div div img {
 }
 
 .rutaCarrousel {
-    display: flex;
-    flex-direction: row;
+    /*display: flex;
+    flex-direction: row;*/
+    display: block;
 }
 
 #quitarBorde {

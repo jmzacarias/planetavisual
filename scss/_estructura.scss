@@ -48,9 +48,12 @@ footer {
 /*Alineación H1 centrado*/
 h1 {
     text-align: center;
-    padding-top: 30px;
+    /*padding-top: 30px;
     padding-bottom: 30px;
-    font-size: $tamanioTitulos;
+    font-size: $tamanioTitulos;*/
+    font-size: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /*Tamaño H2*/

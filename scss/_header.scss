@@ -2,10 +2,14 @@
 
 .grid-header {
     display: grid;
-     grid-template-areas: 
+    /* grid-template-areas: 
         "logo . redes"
         "logo . ."
-        "logo menu .";
+        "logo menu .";*/
+        grid-template-areas: 
+        "pestaniaMenu redes"
+        "logo logo";    
+
     .logo {
         grid-area: logo;
     }
@@ -28,11 +32,15 @@
 }
 
 .logoRedes {
-    width: 35px;
+    /*width: 35px;
     height: 35px;
     border-radius: 30%;
     padding: 1px;
-    transition: height 1s width 1s;
+    transition: height 1s width 1s;*/
+    width: 25px;
+    height: 25px;
+    border-radius: 30%;
+    padding: 1px;
 }
 
 
@@ -40,8 +48,9 @@
 /*Menu Escritorio*/
 .estiloMenu {
     color: #DEE8D5;
-    display: flex; 
-    justify-content: center;
+   /* display: flex; 
+    justify-content: center;*/
+    display: none;
 }
 ul li a {
     color: #DEE8D5;

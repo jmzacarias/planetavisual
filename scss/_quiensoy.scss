@@ -6,11 +6,15 @@
 }   
 
 .textoQuienSoy {
-    width: 40%;
+    /*width: 40%;*/
     margin-top: 10px;
-   }
+    width: 80%;
+    text-align: justify;
+    margin-left: 10%;
+}
 .imgTextoQuienSoy {
-    display:flex;
-    flex-direction: row;
+    /*display:flex;
+    flex-direction: row;*/
     justify-content: space-evenly;
+    display: block;
 }

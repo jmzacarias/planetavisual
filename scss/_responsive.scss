@@ -11,8 +11,8 @@
     .logoRedes {
         width: 35px;
         height: 35px;
-        border-radius: 30%;
-        padding: 1px;
+        /*border-radius: 30%;
+        padding: 1px;*/
         transition: height 1s width 1s;
     }
     .logoRedes:hover {
@@ -20,7 +20,13 @@
         width: 50px;
         filter: opacity(70%);
     }
-   .bolivia {
+    .estiloMenu {
+        display: flex;
+        justify-content: center;
+    }
+
+
+   /*.bolivia {
         animation-name: boliviaCaida;
         animation-iteration-count: 1;
         animation-duration: 2s;
@@ -203,9 +209,9 @@
 
     .estiloTabla {
         margin-left: 15%;
-    }
+    }*/
 }
-@media (max-width:768px) {
+/*@media (max-width:768px) {
     .estiloMenu {
         display:none
     }
@@ -245,4 +251,4 @@
          margin-top: 5px;
          margin-bottom: 5px;
      }
- }
+ }*/
